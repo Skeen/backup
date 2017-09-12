@@ -1,0 +1,8 @@
+backup	root@172.17.0.1:/home/	local/
+backup	root@172.17.0.1:/var/	local/
+backup	root@172.17.0.1:/etc/	local/
+backup	root@172.17.0.1:/usr/local/	local/
+backup	root@172.17.0.1:/opt/	local/
+backup	root@172.17.0.1:/root/	local/
+
+backup_script	/srv/root/dump-time.sh	info/
